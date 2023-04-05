@@ -3,11 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     background-image: url(/Stopwatch/img/ceu.jpg);
     background-position: center;
     background-size: cover;
 }
+
 .container{
     height: 100vh;
     width: 100%;
@@ -15,6 +17,7 @@ body{
     align-items: center;
     justify-content: center;
 }
+
 #panel{
     width: 300px;
     height: 300px;
@@ -36,16 +39,20 @@ button{
     width: 5.5em;
     color: white;
 }
+
 button:hover{
     cursor: pointer;
 }
+
 .start-bnt{
     background-color: rgb(39, 152, 39);
     
 }
+
 .pause-bnt{
     background-color: gray;
 }
+
 .stop-bnt{
     background-color: rgb(255, 44, 44);
 }
